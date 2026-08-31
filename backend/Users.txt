@@ -1,7 +1,3 @@
-ROADMAP
-
-Dockerize
-
 Users
 "username": "AliceJ",
 "password": "Password123!",
