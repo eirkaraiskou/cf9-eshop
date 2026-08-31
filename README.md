@@ -1,15 +1,15 @@
-CODING FACTORY 9  
-Full Stack Project  
+Coding Factory 9 <br><br>
+Full Stack Project <br>
 Author: Karaiskou Anna Eirini  
-
-🛈︎ Description:  
+---
+### 🛈︎ Description:
 This project implements an e-commerce web application that simulates an online store.  
 
-🛈︎ Key Features:  
+### 🛈︎ Key Features: 
 - Responsive Web Design  
 
 - User Authentication:  
-    User registration and login is done securely using JWT authentication.  
+    - User registration and login is done securely using JWT authentication.  
     - User sessions are managed via JSON Web Tokens (JWT)  
     - User passwords are hashed using BCrypt  
 
@@ -35,9 +35,9 @@ This project implements an e-commerce web application that simulates an online s
 - Order History  
     Customers are able to view a list of their orders, including details like products, quantities and order status.  
 
-- Architecture  
+### 🛈︎ Architecture  
 The application follows a client-server architecture:  
-
+```text
 ┌────────────────────────────┐ 
 │ Frontend | React           │   
 └────────────────────────────┘
@@ -53,59 +53,60 @@ The application follows a client-server architecture:
 ┌────────────────────────────┐   
 │ Database | MySQL           | 
 └────────────────────────────┘    
+```
 
-🛈︎ Technology stack:  
-∘ Backend: 
-    Java: Used to implement business logic.  
-    Maven: Used for dependencies management.  
-    Spring Boot: Used to implement RESTful APIs and application configuration.  
-    Spring Security: Used to implement JWT authentication and role-based authorization.  
-    Spring Data JPA: Used to implement MySQL integration and management of database entities.  
+### 🛈︎ Technology stack:  
+- Backend:  
+  - Java: Used to implement business logic.
+  - Maven: Used for dependencies management.
+  - Spring Boot: Used to implement RESTful APIs and application configuration.
+  - Spring Security: Used to implement JWT authentication and role-based authorization.
+  - Spring Data JPA: Used to implement MySQL integration and management of database entities.  
 
-∘ Frontend:  
-    React: Used to implement frontend logic.  
-    Tailwind/Daisy UI: Used for utility styling & components library.  
-    Axios: Used to make HTTP requests to RESTful APIs.  
-    CSS: Used for custom styling.  
+- Frontend:
+  - React: Used to implement frontend logic.
+  - Tailwind/Daisy UI: Used for utility styling & components library.
+  - Axios: Used to make HTTP requests to RESTful APIs.
+  - CSS: Used for custom styling.  
 
-∘ Database:
+- Database:
     MySQL: Relational RDBMS.
 
     Database Design - Main Entities
 
-🛈︎ Utilities  
-∘ Version control  
-    Git  
-    GitHub  
+### 🛈︎ Utilities  
+- Version control  
+    - Git  
+    - GitHub  
 
-∘ Spring Boot project initialization  
-    Spring Initializr  
+- Spring Boot project initialization  
+    - Spring Initializr  
 
-∘ Local Server package  
-    Vite (Fronted)  
-    XAMPP (Backend)  
+- Local Server package  
+    - Vite (Fronted)  
+    - XAMPP (Backend)  
 
-∘ RESTful APIs  
-    Postman  
+- RESTful APIs  
+    - Postman  
 
-🛈︎ Testing  
-∘ Frontend  
-    Manual tests  
+### 🛈︎ Testing  
+- Frontend  
+    - Manual tests  
 
-∘ Backend  
-    Unit tests  
-    Integration tests  
-    RESTful API tests  
+- Backend  
+    - Unit tests  
+    - Integration tests  
+    - RESTful API tests  
 
-🛈︎ Distribution  
-    Docker: Used to containerize backend and frontend applications.  
+### 🛈︎ Distribution & Deployment:    
+ - Docker  
     Run docker-compose up --build from root folder  
 
-🛈︎ Documentation  
-    Java Doc  
-    Swagger: localhost:8080/swagger-ui/index.html  
+### 🛈︎ Documentation  
+- Java Doc
+- Swagger: localhost:8080/swagger-ui/index.html  
 
-🛈︎ Contributions
-    Images: https://unsplash.com  
-    Icons: https://www.flaticon.com  
-    Logo: https://www.freelogodesign.org/  
+### 🛈︎ Contributions:  
+- Images: https://unsplash.com
+- Icons: https://www.flaticon.com
+- Logo: https://www.freelogodesign.org/  
