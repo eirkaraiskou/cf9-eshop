@@ -103,7 +103,7 @@ The application follows a client-server architecture:
     Run docker-compose up --build from root folder  
 
 ### 🛈︎ Documentation  
-- Java Doc
+- Java Doc: localhost:8080/target/site/apidocs/index.html
 - Swagger: localhost:8080/swagger-ui/index.html  
 
 ### 🛈︎ Contributions:  
