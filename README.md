@@ -1,123 +1,231 @@
-┌─────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ CODING FACTORY 9                                                                                │
-├─────────────────────────────────────────────────────────────────────────────────────────────────│
-│ Full Stack Project                                                                              │
-│ Author: Karaiskou Anna Eirini                                                                   │
-└─────────────────────────────────────────────────────────────────────────────────────────────────┘
+CODING FACTORY 9
+Full Stack E-Commerce Web Application
 
-🛈︎ Description
-──────────────────────────────────────────────────────────────────────────────────────────────────
-This project implements an e-commerce web application that simulates an online store.
+Author: Karaiskou Anna Eirini
 
-🛈︎ Key Features
-──────────────────────────────────────────────────────────────────────────────────────────────────
-∘ Responsive Web Design
+🛈 Description
 
-∘ User Authentication:
-    User registration and login is done securely using JWT authentication.
-    - User sessions are managed via JSON Web Tokens (JWT)
-    - User passwords are hashed using BCrypt
+This project implements a full-stack e-commerce web application that simulates an online store.
 
-∘ Role-Based Access Control:
-    Available roles:
-    - Customer: Can browse products, create favorites list, create cart, create order.
-    - Admin: Can manage users status, orders status and the product catalog (CRUD Operations).
+The application provides customers with functionality for browsing and searching products, managing favorites and shopping carts, creating orders, and viewing their order history.
 
-∘ Search & Filtering
-    Search: Customers are able to search products by product id, product name.
-    Filters: Customers are able to filter products by product category, price range.
+Administrators have additional privileges for managing users, orders, and the product catalog.
 
-∘ Shopping Cart:
-    Customers can add products to their shopping cart, adjust quantities, and remove items.
-    The cart is persistent for users that have a customer account.
+🛈 Key Features
+Responsive Web Design
 
-∘ Favorites System:
-    Customers can mark their favorite products for quick access via their profile.
+The application provides a responsive user interface that adapts to different screen sizes and devices.
 
-∘ Checkout & Order Creation
-    Customers are able to proceed with ordering the items that have been added to cart.
+User Authentication
 
-∘ Order History
-    Customers are able to view a list of their orders, including details like products, quantities and order status.
+User registration and login are implemented securely using JWT authentication.
 
-🛈︎ Architecture
-──────────────────────────────────────────────────────────────────────────────────────────────────
-The application follows a client-server architecture:
+User sessions are managed using JSON Web Tokens (JWT).
+User passwords are securely hashed using BCrypt.
+Authentication and authorization are handled using Spring Security.
+Role-Based Access Control
 
-┌────────────────────────────┐ 
-│ Frontend | React           │   
+The application supports two user roles:
+
+Customer
+
+Customers can:
+
+Browse products.
+Search for products by ID or name.
+Filter products by category and price range.
+Add and remove products from their favorites.
+Add products to their shopping cart.
+Adjust product quantities in their cart.
+Remove products from their cart.
+Create orders.
+View their order history.
+View order details and order status.
+Admin
+
+Administrators can:
+
+Manage user accounts and user status.
+Manage order status.
+Manage the product catalog.
+Create products.
+View products.
+Update products.
+Delete products.
+🛈 Search & Filtering
+
+Customers can search and filter products using the following functionality.
+
+Search
+
+Products can be searched by:
+
+Product ID
+Product name
+Filters
+
+Products can be filtered by:
+
+Product category
+Price range
+🛒 Shopping Cart
+
+Customers can manage their shopping cart by:
+
+Adding products to the cart.
+Adjusting product quantities.
+Removing products from the cart.
+Reviewing the products currently in the cart.
+
+The shopping cart is persistent for users with a customer account.
+
+❤️ Favorites System
+
+Customers can mark products as favorites.
+
+Favorite products can be accessed through the customer's profile for quick access.
+
+💳 Checkout & Order Creation
+
+Customers can proceed to checkout after adding products to their shopping cart.
+
+During checkout, the application creates an order containing the selected products and their quantities.
+
+📦 Order History
+
+Customers can view their previous orders.
+
+Each order contains information such as:
+
+Ordered products
+Product quantities
+Order status
+Order details
+🛈 Architecture
+
+The application follows a client-server architecture.
+
+┌────────────────────────────┐
+│      Frontend | React      │
 └────────────────────────────┘
-            ▲
-            │ RESTful APIs
-            ▼ 
-┌────────────────────────────┐ 
-│ Backend | Java Spring Boot |         
+             ▲
+             │ RESTful APIs
+             ▼
+┌────────────────────────────┐
+│ Backend | Java Spring Boot │
 └────────────────────────────┘
-            ▲
-            │ Spring Data JPA / Hibernate
-            ▼ 
-┌────────────────────────────┐   
-│ Database | MySQL           | 
-└────────────────────────────┘    
+             ▲
+             │ Spring Data JPA / Hibernate
+             ▼
+┌────────────────────────────┐
+│       Database | MySQL     │
+└────────────────────────────┘
 
-🛈︎ Technologies
-──────────────────────────────────────────────────────────────────────────────────────────────────
-∘ Backend: 
-    Java: Used to implement business logic.
-    Maven: Used for dependencies management.
-    Spring Boot: Used to implement RESTful APIs and application configuration.
-    Spring Security: Used to implement JWT authentication and role-based authorization.
-    Spring Data JPA: Used to implement MySQL integration and management of database entities.
+Communication Flow
+The React frontend provides the user interface and handles client-side logic.
+The frontend communicates with the backend through RESTful APIs.
+The Spring Boot backend handles business logic, authentication, authorization, and API requests.
+Spring Data JPA / Hibernate provides persistence and communication with the MySQL database.
+The MySQL database stores application data such as users, products, carts, favorites, and orders.
+🛈 Technologies
+Backend
+Java — Used to implement the application's business logic.
+Maven — Used for dependency management and project configuration.
+Spring Boot — Used to implement RESTful APIs and application configuration.
+Spring Security — Used for authentication and role-based authorization.
+JWT — Used for secure user authentication and session management.
+BCrypt — Used for secure password hashing.
+Spring Data JPA — Used for database access and entity management.
+Hibernate — Used as the JPA implementation.
+MySQL — Used as the relational database management system.
+Frontend
+React — Used to implement the frontend and user interface.
+Tailwind CSS — Used for utility-based styling.
+DaisyUI — Used as a component library for the user interface.
+Axios — Used to make HTTP requests to the RESTful APIs.
+CSS — Used for custom styling.
+Database
+MySQL — Relational database management system.
+Main Entities
 
-∘ Frontend:
-    React: Used to implement frontend logic.
-    Tailwind/Daisy UI: Used for utility styling & components library.
-    Axios: Used to make HTTP requests to RESTful APIs.
-    CSS: Used for custom styling.
+The main entities of the application include:
 
-∘ Database:
-    MySQL: Relational RDBMS.
+User
+Product
+Category
+Cart
+Cart Item
+Favorite
+Order
+Order Item
+🛈 Utilities & Development Tools
+Version Control
+Git — Used for version control.
+GitHub — Used for source code management and repository hosting.
+Project Initialization
+Spring Initializr — Used to initialize the Spring Boot project.
+Local Development
+Vite — Used as the frontend development and build tool.
+XAMPP — Used for local development and MySQL/database services.
+RESTful API Testing
+Postman — Used for testing and validating RESTful APIs.
+🧪 Testing
+Frontend
 
-    Database Design - Main Entities:
+Frontend functionality was tested using:
 
-🛈︎ Utilities
-──────────────────────────────────────────────────────────────────────────────────────────────────
-∘ Version control
-    Git
-    GitHub
+Manual testing
+User interaction testing
+UI and responsive design testing
+Backend
 
-∘ Spring Boot project initialization
-    Spring Initializr
+Backend functionality was tested using:
 
-∘ Local Server package
-    Vite (Fronted)
-    XAMPP (Backend)
+Unit tests
+Integration tests
+RESTful API tests
 
-∘ RESTful APIs
-    Postman
+The tests cover important application functionality such as authentication, authorization, product management, and order-related operations.
 
-🛈︎ Testing
-──────────────────────────────────────────────────────────────────────────────────────────────────
-∘ Frontend
-    Manual tests
+🐳 Distribution & Deployment
 
-∘ Backend
-    Unit tests
-    Integration tests
-    RESTful API tests
+The application is containerized using Docker.
 
-🛈︎ Distribution
-──────────────────────────────────────────────────────────────────────────────────────────────────
-    Docker: Used to containerize backend and frontend applications.
-    Run docker-compose up --build from root folder
+Docker is used to package and run the frontend and backend applications in containers.
 
-🛈︎ Documentation
-    Java Doc
-    Swagger: localhost:8080/swagger-ui/index.html
-──────────────────────────────────────────────────────────────────────────────────────────────────
+Run the Application
 
-🛈︎ Contributions
-──────────────────────────────────────────────────────────────────────────────────────────────────
-    Images: https://unsplash.com
-    Icons: https://www.flaticon.com
-    Logo: https://www.freelogodesign.org/
+From the project's root directory, run:
+
+docker-compose up --build
+
+
+This command builds the required Docker images and starts the application's services.
+
+📚 Documentation
+JavaDoc
+
+JavaDoc is used to document the Java source code and provide information about classes, methods, and application components.
+
+Swagger / OpenAPI
+
+The backend RESTful APIs are documented using Swagger.
+
+When the application is running, Swagger UI is available at:
+
+http://localhost:8080/swagger-ui/index.html
+
+🖼️ Resources & Contributions
+
+The project uses the following external resources:
+
+Images: Unsplash
+Icons: Flaticon
+Logo: FreeLogoDesign
+👩‍💻 Author
+
+Karaiskou Anna Eirini
+
+📄 License
+
+This project was developed as part of the Coding Factory 9 full-stack project.
