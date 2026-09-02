@@ -71,8 +71,7 @@ The application follows a client-server architecture:
 
 - Database:
     MySQL: Relational RDBMS.
-
-    Database Design - Main Entities
+    ![Database Domain Model](db/database-domain-model.png)
 
 ### 🛈︎ Utilities  
 - Version control  
@@ -100,7 +99,8 @@ The application follows a client-server architecture:
 
 ### 🛈︎ Distribution & Deployment:    
  - Docker  
-    Run docker-compose up --build from root folder  
+    Run docker-compose up --build from root folder
+   ![Docker Instance](docker-instance.png)
 
 ### 🛈︎ Documentation  
 - Java Doc: localhost:8080/target/site/apidocs/index.html
