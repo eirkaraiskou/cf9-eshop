@@ -4,7 +4,7 @@ Author: Karaiskou Anna Eirini
 ---
 ### 🛈︎ Description:
 This project implements an e-commerce web application that simulates an online store.  
-![Frontend Showcase](<Fronted Showcase.png>)
+![Frontend Showcase](<frontend-showcase.png>)
 ### 🛈︎ Key Features: 
 - Responsive Web Design  
 
