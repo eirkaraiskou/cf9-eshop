@@ -70,8 +70,8 @@ The application follows a client-server architecture:
   - CSS: Used for custom styling.  
 
 - Database:
-    MySQL: Relational RDBMS.  
-    ![Database Domain Model](<db/database-domain-model.png>)
+    MySQL: Relational RDBMS.
+  ![Database Domain Model](db/db-domain-model.png)
 
 ### 🛈︎ Utilities  
 - Version control  
