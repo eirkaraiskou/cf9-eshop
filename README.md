@@ -99,7 +99,7 @@ The application follows a client-server architecture:
 
 ### 🛈︎ Distribution & Deployment:    
  - Docker  
-    Run docker-compose up --build (from root folder)
+    Run docker-compose up --build (from root folder)  
     *Requires Docker Desktop / Docker Compose*
    ![Docker Instance](docker-instance.png)
 
