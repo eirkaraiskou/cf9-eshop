@@ -108,6 +108,9 @@ The application follows a client-server architecture:
   *(If JavaDoc needs to be regenerated use .\mvnw.cmd javadoc:javadoc)*
 - Swagger: localhost:8080/swagger-ui/index.html  
 
+### Tools  
+ChatGPT was used for reviewing code and suggesting corrections
+
 ### 🛈︎ Contributions:  
 - Images: https://unsplash.com
 - Icons: https://www.flaticon.com
