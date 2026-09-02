@@ -5,6 +5,7 @@
 -encoding
 'UTF-8'
 -protected
+-quiet
 --release
 17
 -sourcepath
@@ -119,24 +120,24 @@ C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\
 C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar = 1788203169438
 C:\Users\User\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar = 1788203169773
 C:\Users\User\Projects\Coding Factory 9\eshop\backend\src\main\java = 1787743293618
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\allclasses-index.html = 1788367364884
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\allpackages-index.html = 1788367364913
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\copy.svg = 1788367365124
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\element-list = 1788367362648
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\help-doc.html = 1788367365091
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\index-all.html = 1788367365017
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\index.html = 1788367364819
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\link.svg = 1788367365127
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\member-search-index.js = 1788367364948
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\module-search-index.js = 1788367364935
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\overview-summary.html = 1788367365070
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\overview-tree.html = 1788367364792
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\package-search-index.js = 1788367364939
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\script.js = 1788367365121
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\search-page.js = 1788367365135
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\search.html = 1788367365050
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\search.js = 1788367365132
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\serialized-form.html = 1788367363252
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\stylesheet.css = 1788367365113
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\tag-search-index.js = 1788367364951
-C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\type-search-index.js = 1788367364942
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\allclasses-index.html = 1788367650397
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\allpackages-index.html = 1788367650427
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\copy.svg = 1788367650623
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\element-list = 1788367648134
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\help-doc.html = 1788367650591
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\index-all.html = 1788367650520
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\index.html = 1788367650335
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\link.svg = 1788367650627
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\member-search-index.js = 1788367650458
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\module-search-index.js = 1788367650448
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\overview-summary.html = 1788367650565
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\overview-tree.html = 1788367650238
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\package-search-index.js = 1788367650451
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\script.js = 1788367650620
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\search-page.js = 1788367650635
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\search.html = 1788367650547
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\search.js = 1788367650631
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\serialized-form.html = 1788367648743
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\stylesheet.css = 1788367650611
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\tag-search-index.js = 1788367650461
+C:\Users\User\Projects\Coding Factory 9\eshop\backend\target\site\apidocs\type-search-index.js = 1788367650454

@@ -124,6 +124,7 @@
                 <version>3.5.0</version>
                 <configuration>
                     <source>18</source>
+                    <quiet>true</quiet>
                     <doctitle>CF9 E-Shop API Documentation</doctitle>
                     <useStandardDocletOptions>true</useStandardDocletOptions>
                 </configuration>
