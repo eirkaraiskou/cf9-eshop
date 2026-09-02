@@ -4,7 +4,7 @@ Author: Karaiskou Anna Eirini
 ---
 ### 🛈︎ Description:
 This project implements an e-commerce web application that simulates an online store.  
-![Frontend Showcase](<Fronted Showcase.png>)
+![Frontend Showcase](<frontend-showcase.png>)
 ### 🛈︎ Key Features: 
 - Responsive Web Design  
 
@@ -71,8 +71,7 @@ The application follows a client-server architecture:
 
 - Database:
     MySQL: Relational RDBMS.
-
-    Database Design - Main Entities
+  ![Database Domain Model](db/db-domain-model.png)
 
 ### 🛈︎ Utilities  
 - Version control  
@@ -100,10 +99,13 @@ The application follows a client-server architecture:
 
 ### 🛈︎ Distribution & Deployment:    
  - Docker  
-    Run docker-compose up --build from root folder  
+    Run docker-compose up --build (from root folder)  
+    *(Requires Docker Desktop / Docker Compose)*
+   ![Docker Instance](docker-instance.png)
 
 ### 🛈︎ Documentation  
-- Java Doc: localhost:8080/target/site/apidocs/index.html
+- Java Doc: localhost:8080/target/site/apidocs/index.html  
+  *(If JavaDoc needs to be regenerated use .\mvnw.cmd javadoc:javadoc)*
 - Swagger: localhost:8080/swagger-ui/index.html  
 
 ### 🛈︎ Contributions:  
