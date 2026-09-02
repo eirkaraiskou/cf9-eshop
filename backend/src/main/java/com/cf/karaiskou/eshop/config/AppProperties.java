@@ -5,10 +5,10 @@ import org.springframework.stereotype.Component;
 
 /**
  * Holds application-level custom properties loaded from application.properties.
- * <p>
+ * 
  * This class provides access to configurable values such as the application name and author.
  * These values can be injected into other beans or used as defaults in DTOs.
- * </p>
+ *
  */
 @Component
 public class AppProperties {

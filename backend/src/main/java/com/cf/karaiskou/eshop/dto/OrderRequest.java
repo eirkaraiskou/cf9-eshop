@@ -5,10 +5,10 @@ import java.util.List;
 
 /**
  * Data Transfer Object used for creating an order.
- * <p>
+ *
  * This DTO is received from the frontend during checkout and contains
  * all necessary information to create an order.
- * </p>
+ *
  */
 public class OrderRequest {
 

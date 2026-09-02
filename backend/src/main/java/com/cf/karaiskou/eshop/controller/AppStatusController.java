@@ -21,7 +21,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 /**
  * REST controller providing application liveness, readiness, and metadata endpoints.
- * <p>
+ * 
  * Endpoints:
  * <ul>
  *     <li><b>Liveness:</b> `/api/status` – checks if the app is running</li>

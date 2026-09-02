@@ -20,10 +20,10 @@ import java.util.Optional;
 
 /**
  * REST controller for product operations.
- * <p>
+ * 
  * Provides endpoints to retrieve products, filter by category,
  * and fetch individual product details.
- * </p>
+ *
  */
 @RestController
 @RequestMapping("/api/products")

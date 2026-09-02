@@ -3,9 +3,7 @@ package com.cf.karaiskou.eshop.dto;
 /**
  * Data Transfer Object (DTO) representing a cart item.
  *
- * <p>
  * Contains product-related information along with quantity and pricing details.
- * </p>
  */
 public class CartItemResponse {
 

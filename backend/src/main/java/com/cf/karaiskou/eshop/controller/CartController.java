@@ -22,7 +22,6 @@ import org.slf4j.LoggerFactory;
 /**
  * REST Controller for managing cart operations.
  *
- * <p>
  * Provides endpoints for:
  * <ul>
  *     <li>Retrieving the authenticated user's cart</li>
@@ -31,7 +30,6 @@ import org.slf4j.LoggerFactory;
  *     <li>Updating product quantity</li>
  *     <li>Clearing the cart</li>
  * </ul>
- * </p>
  */
 @RestController
 @RequestMapping("/api/cart")

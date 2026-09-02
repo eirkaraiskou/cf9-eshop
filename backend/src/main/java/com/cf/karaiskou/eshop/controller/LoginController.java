@@ -24,13 +24,12 @@ import java.util.Map;
 
 /**
  * REST controller for user authentication.
- * <p>
+ * 
  * Provides endpoints for:
  * <ul>
  *     <li>User login and JWT token generation</li>
  *     <li>Password change for authenticated users</li>
  * </ul>
- * </p>
  */
 @RestController
 @RequestMapping("/api/auth")

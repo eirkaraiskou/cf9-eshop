@@ -21,10 +21,10 @@ import java.util.Optional;
 
 /**
  * REST controller for user registration.
- * <p>
+ * 
  * Provides an endpoint to create a new user account.
  * Passwords are hashed using {@link PasswordEncoder}, and newly created accounts are active by default.
- * </p>
+ * 
  */
 @RestController
 @RequestMapping("/api/auth")

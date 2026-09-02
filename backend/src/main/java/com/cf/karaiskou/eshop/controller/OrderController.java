@@ -21,10 +21,10 @@ import java.util.stream.Collectors;
 
 /**
  * REST controller responsible for handling order-related endpoints.
- * <p>
+ * 
  * Provides functionality for creating orders, retrieving user orders,
  * and managing order operations.
- * </p>
+ * 
  */
 @RestController
 @RequestMapping("/api/orders")

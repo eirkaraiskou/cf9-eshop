@@ -15,13 +15,12 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 /**
  * Admin controller for managing users.
- * <p>
+ *
  * Provides endpoints for:
  * <ul>
  *     <li>Retrieving all users</li>
  *     <li>Activating / deactivating users</li>
  * </ul>
- * </p>
  */
 @RestController
 @RequestMapping("/api/admin/users")

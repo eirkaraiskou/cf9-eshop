@@ -5,19 +5,15 @@ import java.util.List;
 /**
  * Data Transfer Object (DTO) representing a user's cart.
  *
- * <p>
  * This DTO is used to expose only the necessary cart data to the client,
  * avoiding direct exposure of the Cart entity and its internal relationships.
- * </p>
  *
- * <p>
  * Contains:
  * <ul>
  *     <li>Cart ID</li>
  *     <li>List of cart items</li>
  *     <li>Total cart value</li>
  * </ul>
- * </p>
  */
 public class CartResponse {
 

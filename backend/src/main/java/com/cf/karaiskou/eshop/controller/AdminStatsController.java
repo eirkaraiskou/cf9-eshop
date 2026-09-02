@@ -21,10 +21,10 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 /**
  * Controller for retrieving administrative statistics related to users and orders.
- * <p>
+ *
  * Provides a single endpoint to fetch overall counts, revenue, and breakdowns for
  * orders by day, shipping method, payment method, and status.
- * </p>
+ *
  */
 @RestController
 @PreAuthorize("hasRole('ADMIN')")
@@ -41,7 +41,7 @@ public class AdminStatsController {
 
     /**
      * Retrieve aggregated statistics for users and orders.
-     * <p>
+     * 
      * Includes:
      * <ul>
      *     <li>Number of registered users</li>

@@ -22,14 +22,14 @@ import java.util.List;
 /**
  * REST Controller for managing wishlist operations.
  *
- * <p>
+ *
  * Provides endpoints for:
  * <ul>
  *     <li>Adding a product to wishlist</li>
  *     <li>Removing a product from wishlist</li>
  *     <li>Retrieving the authenticated user's wishlist</li>
  * </ul>
- * </p>
+ *
  */
 @RestController
 @RequestMapping("/api/wishlist")
