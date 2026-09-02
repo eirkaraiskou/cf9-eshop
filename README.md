@@ -105,6 +105,7 @@ The application follows a client-server architecture:
 
 ### 🛈︎ Documentation  
 - Java Doc: localhost:8080/target/site/apidocs/index.html
+  *If JavaDoc needs to be regenerated use .\mvnw.cmd javadoc:javadoc*
 - Swagger: localhost:8080/swagger-ui/index.html  
 
 ### 🛈︎ Contributions:  
