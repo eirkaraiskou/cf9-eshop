@@ -13,18 +13,14 @@ import java.util.stream.Collectors;
  * Mapper class responsible for converting Cart-related entities
  * into their corresponding DTO representations.
  *
- * <p>
  * This class ensures that internal entity structures are not exposed
  * directly to the client and that only the necessary data is returned.
- * </p>
  *
- * <p>
  * Responsibilities:
  * <ul>
  *     <li>Convert Cart → CartResponse</li>
  *     <li>Convert CartItem → CartItemResponse</li>
  * </ul>
- * </p>
  */
 @Component
 public class CartMapper {

@@ -11,14 +11,12 @@ import java.util.Optional;
 /**
  * Repository interface for managing {@link Wishlist} entities.
  *
- * <p>
  * Provides methods for:
  * <ul>
  *     <li>Retrieving wishlist entries for a specific user</li>
  *     <li>Checking if a product is already in a user's wishlist</li>
  *     <li>Adding and removing wishlist entries</li>
  * </ul>
- * </p>
  */
 public interface WishlistRepository extends JpaRepository<Wishlist, Long> {
 

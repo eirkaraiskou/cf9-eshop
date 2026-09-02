@@ -15,7 +15,6 @@ import java.util.Optional;
 /**
  * Service class responsible for managing cart operations.
  *
- * <p>
  * Provides business logic for:
  * <ul>
  *     <li>Retrieving or creating a cart for a user</li>
@@ -23,16 +22,13 @@ import java.util.Optional;
  *     <li>Removing products from cart</li>
  *     <li>Updating product quantities</li>
  * </ul>
- * </p>
  *
- * <p>
  * This service ensures:
  * <ul>
  *     <li>Each user has exactly one cart</li>
  *     <li>Cart consistency is maintained</li>
  *     <li>Duplicate items are avoided (quantity updated instead)</li>
  * </ul>
- * </p>
  */
 @Service
 public class CartService {

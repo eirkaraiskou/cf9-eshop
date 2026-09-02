@@ -258,9 +258,9 @@ public class Product {
     }
 
     /**
-     * Set the category of the product.
+     * Sets the subcategory of the product.
      *
-     * @param category the category to set
+     * @param subcategory the subcategory to set
      */
     public void setSubcategory(String subcategory) {
         this.subcategory = subcategory;

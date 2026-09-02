@@ -233,9 +233,9 @@ public class Order {
     }
 
     /**
-     * Set the total cost of the order.
+     * Sets the total cost of the order.
      *
-     * @param total2 the total cost to set
+     * @param total the total cost to set
      */
     public void setTotal(BigDecimal total) {
         this.total = total;

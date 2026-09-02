@@ -5,20 +5,16 @@ import jakarta.persistence.*;
 /**
  * Entity representing an item inside a shopping cart.
  *
- * <p>
  * Each cart item corresponds to a specific product and a quantity selected
  * by the user. A cart can contain multiple cart items, but each cart item
  * is associated with exactly one cart.
- * </p>
  *
- * <p>
  * Design decisions:
  * <ul>
  *     <li>Separate entity to support multiple products per cart</li>
  *     <li>Quantity stored per product</li>
  *     <li>Linked to {@link Product} for product details</li>
  * </ul>
- * </p>
  */
 @Entity
 @Table(name = "cart_items")

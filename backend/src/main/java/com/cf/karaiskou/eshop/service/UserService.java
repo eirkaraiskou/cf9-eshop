@@ -107,13 +107,8 @@ public class UserService {
     /**
      * Updates the active status of a user.
      *
-     * <p>
-     * Allows administrators to enable or disable a user account.
-     * </p>
-     *
      * @param userId the ID of the user
-     * @param active the new active status (true = active, false = inactive)
-     * @return the updated {@link User} entity
+     * @param status the new active status
      */
     public User updateUserStatus(Long userId, boolean status) {
         logger.info("Updating user {} active status to {}", userId, status);

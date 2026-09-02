@@ -15,14 +15,12 @@ import java.util.List;
 /**
  * Service class for managing wishlist operations.
  *
- * <p>
  * Provides business logic for:
  * <ul>
  *     <li>Adding products to wishlist</li>
  *     <li>Removing products from wishlist</li>
  *     <li>Retrieving user wishlist</li>
  * </ul>
- * </p>
  */
 @Service
 @Transactional
